@@ -1,0 +1,126 @@
+#home {
+    background-image: url(../imges/events-heavenly-header.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.layer {
+    background-color: rgba(214, 46, 51, 0.6);
+    height: 100%;
+    color: #fff;
+}
+
+.layer h2 {
+    font-size: 60px;
+}
+
+.home-content {
+    margin-left: 250px;
+}
+
+.home-content span {
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 250px;
+}
+
+.side-bar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    background-color: rgb(65, 70, 88);
+}
+
+.side-bar a {
+    display: block;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    padding: 20px 8px 20px 32px;
+    transition: all .5s;
+}
+
+.side-bar a:hover{
+    color: rgb(214, 46, 51);
+}
+.closeBtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+#details {
+    margin: 100px auto;
+}
+
+.info h3 {
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    font-size: 24px;
+}
+.info div{
+    background-color: rgb(204, 204, 204);
+    padding: 10px;
+    display: none;
+}
+
+#duration {
+    background-image: url(../imges/invitation-2508607__340.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 330px;
+}
+
+.duration-layer {
+    background-color: rgba(214, 46, 51, 0.6);
+    height: 100%;
+    color: white;
+}
+.time{
+    border: solid 1px #fff;
+    margin-top: 165px;
+    transform: translateY(-50%);
+    padding: 50px;
+}
+.social-icons i{
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    transition: all .5s;
+}
+.social-icons i:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(214, 46, 51);
+    border-color: rgb(214, 46, 51);
+}
+.contact-form button{
+    display: block;
+    margin-top: 25px;
+}
+.red
+{
+    color:rgb(214, 46, 51);
+}
+.red i{
+    color: #212529;
+}
+.contact-form span{
+    font-size: 20px;
+    color: red;
+}
